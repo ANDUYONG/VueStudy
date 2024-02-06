@@ -1,8 +1,7 @@
 > 브랜치 구조
-
-   - master
-	- ady(안선임)
-	- kma(곽주임)
+> - master
+> 	- ady(안선임)
+> 	- kma(곽주임)
 
 
 
