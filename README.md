@@ -8,7 +8,6 @@
 > 2. C:\VueStudy <== 폴더생성
 > 3. C:\VueStudy 마우스 우클릭 git bash 실행
 > 4. git clone https://github.com/ANDUYONG/VueStudy.git
-> -----------------------------------------------------------------------------------------------------
 # [ pull/push 방법 ]
 #### ! 항상 C:\VueStudy 이 경로에서 git bash 키고 git branch (본인계정) 으로 접속
 ```
