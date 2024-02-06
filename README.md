@@ -7,7 +7,7 @@
 
 
 
-프로젝트 clone 하기 !
+> 프로젝트 clone 하기 !
 
 	1. https://git-scm.com/download/win => git 설치 파일 다운로드
  
