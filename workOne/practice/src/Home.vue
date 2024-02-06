@@ -1,4 +1,5 @@
 <template>
+  <h1>========== 과제방 ===========</h1>
   <button :onclick="example">ex) 예시</button><br/><br/>
   <button :onclick="workOne">1. 2개의 텍스트박스 글자 입력하면 제 3의 텍스트박스에 합쳐서 보이도록 만들기</button><br/>
   <button :onclick="workOne">2. 부모화면의 텍스트박스 입력내용 자식화면에 표출</button><br/>
@@ -7,7 +8,7 @@
 
 <script setup>
 import exampleParent from './example/parent.vue';
-import familyParent from './family/parent.vue';
+import familyParent from './work1/parent.vue';
 import router from './router'
 
 const example = () => {
@@ -19,7 +20,7 @@ const example = () => {
 
 const workOne = () => {
   router.push({
-    path: '/family/parent',
+    path: '/work1/parent',
     component: familyParent,
   })
 };

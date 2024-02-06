@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import child from '@/family/child.vue'
+import child from '@/work1/child.vue'
 import { ref } from 'vue'
 
 
