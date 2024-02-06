@@ -1,3 +1,9 @@
+브랜치 구조
+   - master
+	 - ady(안선임)
+	 - kma(곽주임)
+
+
 프로젝트 clone 하기 !
 
 	1. https://git-scm.com/download/win => git 설치 파일 다운로드
@@ -7,15 +13,6 @@
 	3. C:\VueStudy 마우스 우클릭 git bash 실행
  
 	4. git clone https://github.com/ANDUYONG/VueStudy.git
-
-
-
-브랜치 구조
-
-   - master
-	 - ady(안선임)
-	 - kma(곽주임)
-
 
 pull/push 방법
 	! 항상 C:\VueStudy 이 경로에서 git bash 키고 git branch (본인계정) 으로 접속
