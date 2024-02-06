@@ -9,7 +9,7 @@
 		=> https://git-scm.com/download/win
 	2. C:\VueStudy 폴더생성
 	3. C:\VueStudy 마우스 우클릭 git bash 실행
-	4. 프로젝스 클론
+	4. 프로젝트 클론
 		=> git clone https://github.com/ANDUYONG/VueStudy.git
 ```
 
