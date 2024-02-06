@@ -17,7 +17,7 @@
  
 	4. git clone https://github.com/ANDUYONG/VueStudy.git
 
-pull/push 방법
+> pull/push 방법
 	! 항상 C:\VueStudy 이 경로에서 git bash 키고 git branch (본인계정) 으로 접속
 		=> ex) git branch kma
 
