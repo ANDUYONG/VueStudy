@@ -1,7 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-// import Home from './Home.vue';
-
 export default createRouter({
     history: createWebHistory(),
     routes: [
@@ -14,8 +12,8 @@ export default createRouter({
             component: () => import('@/example/parent.vue'),
         },
         {
-            path: '/family/parent',
-            component: () => import('@/family/parent.vue'),
+            path: '/work1/parent',
+            component: () => import('@/work1/parent.vue'),
         },
     ],
 });
