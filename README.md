@@ -19,7 +19,6 @@
 >	ex) git branch kma
 > ```
 
-
 > #### - &nbsp; update
 > ```
 >	1. git pull origin master
