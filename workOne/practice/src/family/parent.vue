@@ -10,11 +10,12 @@
 import child from '@/family/child.vue'
 import { ref } from 'vue'
 
+
 export default {
   components: { child },
   setup() {
     const item = ref('');
-
+    
     return { item }
   }
 }
