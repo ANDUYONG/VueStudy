@@ -1,22 +1,19 @@
 <template>
   <div>
-    <h3>즐거운 {{ $props.item }} 수업!</h3>
-    자식<input :item="$props.item">
+    <h3>{{ $props.item }}</h3>
+    <!-- 자식<input :item="$props.item"> -->
+  <button @click="$emit('someEvent')">클릭하기</button>
   </div>
 </template>
 
-<script>
-import { computed } from 'vue'
+<script setup>
 
-export default {
-  props: {
+  const props = defineProps({
     item: String
-  },
-  setup() {
+  })
 
-    return {}
-  }
-}
+  const emit = defineEmits(['someEvent']);
+
 </script>
 
 <style lang="scss" scoped>
