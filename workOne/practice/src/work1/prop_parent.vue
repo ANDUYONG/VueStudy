@@ -4,6 +4,10 @@
     <prop_child input type="text" :item="item"/>
   </div>
 </template>
+<!-- [Feedback]
+    input type="text" 이 부분은 굳이 필요가 없을 것 같습니다.
+    필하지 않는 코드는 지우는게 좋아요.
+ -->
 
 
 <script setup>

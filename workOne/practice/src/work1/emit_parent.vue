@@ -12,7 +12,7 @@ import { ref } from 'vue'
 const childItem = ref('');
 const checkEmit = (a) => {
   childItem.value = a;
-}
+};
 
 </script>
 
