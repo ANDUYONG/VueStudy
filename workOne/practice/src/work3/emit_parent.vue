@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-import emit_child from '@/work1/emit_child.vue'
+import emit_child from '@/work3/emit_child.vue'
 import { ref } from 'vue'
 
 const childItem = ref('');

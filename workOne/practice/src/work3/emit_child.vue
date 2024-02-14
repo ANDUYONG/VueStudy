@@ -9,7 +9,6 @@
 -->
 
 <script setup>
-import emit_child from '@/work1/emit_child.vue'
 import { ref } from 'vue'
 
  const emit = defineEmits(['someEvent','childItem']);
