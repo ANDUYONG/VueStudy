@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>자식화면에 표출 : {{ $props.item }}</h3>
+    <h3>자식화면에 표출 : {{ props.item }}</h3>
   </div>
 </template>
 <!-- [Feedback]

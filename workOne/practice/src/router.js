@@ -16,12 +16,12 @@ export default createRouter({
             component: () => import('@/work1/fullName.vue'),
         },
         {
-            path: '/work1/prop_parent',
-            component: () => import('@/work1/prop_parent.vue'),
+            path: '/work2/prop_parent',
+            component: () => import('@/work2/prop_parent.vue'),
         },
         {
-            path: '/work1/emit_parent',
-            component: () => import('@/work1/emit_parent.vue'),
+            path: '/work3/emit_parent',
+            component: () => import('@/work3/emit_parent.vue'),
         },
     ],
 });
