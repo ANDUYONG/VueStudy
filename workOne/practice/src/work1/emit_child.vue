@@ -4,6 +4,9 @@
     <button @click="$emit('someEvent', childItem)">전송하기</button></h3>
   </div>
 </template>
+<!-- [Feedback]
+  필요없는 코드는 지워주세요 ~
+-->
 
 <script setup>
 import emit_child from '@/work1/emit_child.vue'
