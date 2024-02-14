@@ -11,7 +11,7 @@
 <script setup>
 import { ref } from 'vue'
 
- const emit = defineEmits(['someEvent','childItem']);
+ const emit = defineEmits(['someEvent']);
  const childItem = ref('');
 </script>
 
