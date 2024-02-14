@@ -13,7 +13,6 @@ const childItem = ref('');
 const checkEmit = (a) => {
   childItem.value = a;
 };
-
 </script>
 
 <style lang="scss" scoped>
