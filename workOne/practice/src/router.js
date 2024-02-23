@@ -23,5 +23,21 @@ export default createRouter({
             path: '/work3/emit_parent',
             component: () => import('@/work3/emit_parent.vue'),
         },
+        {
+            path: '/work4/parent',
+            component: () => import('@/work4/parent.vue'),
+        },
+        {
+            path: '/work5/menutable',
+            component: () => import('@/work5/menutable.vue'),
+        },
+        {
+            path: '/work6/rowclick_parent',
+            component: () => import('@/work6/rowclick_parent.vue'),
+        },
+        {
+            path: '/work7/cellclick_parent',
+            component: () => import('@/work7/cellclick_parent.vue'),
+        },
     ],
 });
