@@ -1,29 +1,34 @@
 <template>
 <div class="parent">
     <select v-model="selected">
-      <option v-for="option in options" :value="option.value" :key="option.num">
-        {{ option.num }}
+      <option v-for="option in options" :key="option.num" :value="option.value">
+        {{ option.value }}
       </option>
     </select>
-    <div>선택됨: {{ selected }}</div>
-  
+    <div>선택됨: {{ selectedNum }}</div>
+
     <!-- 자식한테 받아옴 -->
     <div class="child-left" v-if="selected === '첫째'">    
       <first @firstEvent="firstcheckEmit"/>
-      부모화면 표출 : {{ firstchildItem }}
     </div>
 
     <div class="child-right" v-if="selected === '둘째'">    
-      <second @secondEvent="secondcheckEmit" />
-      부모화면 표출 : {{ secondchildItem }}
+      <second @secondEvent="secondcheckEmit" /> 
     </div>
+
+    <div>
+      <br>
+      <!-- 부모화면 표출 -->
+     부모화면 : {{ selected === '첫째' ? firstchildItem : secondchildItem }}
+    </div>
+
 </div>
 </template>
 
 <script setup>
 import first from '@/work4/first.vue'
 import second from '@/work4/second.vue'
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 
 const firstchildItem = ref('');
 const secondchildItem = ref('');
@@ -34,15 +39,25 @@ const firstcheckEmit = (a) => {
 
 const secondcheckEmit = (b) => {
   secondchildItem.value = b;
-  console.log(secondchildItem.value);
-
 };
 
 const selected = ref('')
+const selectedNum = computed(() => {
+  const filteredOptions = options.value.filter(option => option.value === selected.value);
+  if (filteredOptions.length > 0) {
+    return filteredOptions[0].value;
+  } else {
+    return '';
+  }
+});
+
+
 const options = ref([
   { num: 'first', value: '첫째' },
   { num: 'second', value: '둘째' },
 ])
+
+
 
 
 </script>

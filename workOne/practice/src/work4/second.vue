@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>자식2 : <input v-model="secondchildItem" @keydown="$emit('secondEvent', secondchildItem)">
+    <h3>둘째 : <input v-model="secondchildItem" @keydown="$emit('secondEvent', secondchildItem)">
     </h3>
   </div>
 </template>
